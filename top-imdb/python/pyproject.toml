@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "top-imdb"
+version = "0.1.0"
+description = "Proyecto IMDb con UNIX y Python"
+authors = ["Jennlg <jennifer.lopez67@unach.mx>"]
+readme = "LEEME.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+prettytable = "^3.11.0"
+
+[tool.poetry.scripts]
+test_script = "scripts.test_script"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
