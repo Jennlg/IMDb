@@ -7,7 +7,7 @@ Este proyecto compara dos enfoques para resolver el problema de obtener las mejo
 1. Navegar al directorio donde se encuentran los archivos de texto.
 2. Ejecutar los comandos necesarios para procesar los datos (ver archivos .sh en carpeta cmd)
 
-## En Windows (Instrucciones para Python)
+### En Windows (Instrucciones para Python)
 1. Navegar al directorio `python`.
 2. Instalar las dependencias utilizando Poetry: `poetry install`.
 3. Ejecutar el `test_script.py` en `scripts/` para analizar las películas.
